@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class GridNode : MonoBehaviour
@@ -12,4 +14,9 @@ public class GridNode : MonoBehaviour
     public GridNode LeftNeighbor;
     public GridNode TopNeighbor;
     public GridNode BottomNeighbor;
+
+    private void Start()
+    {
+        sitPosition = transform.position + new Vector3(0, 1, 0);
+    }
 }
