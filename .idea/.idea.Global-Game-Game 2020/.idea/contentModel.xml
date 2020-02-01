@@ -21,6 +21,8 @@
             <e p="ISubscribeable.cs" t="Include" />
           </e>
           <e p="Kyra" t="Include">
+            <e p="EnemyBehaviour.cs" t="Include" />
+            <e p="HealthBehaviour.cs" t="Include" />
             <e p="SimplePlayerMovementBehaviour.cs" t="Include" />
             <e p="ThirdPersonBehaviour.cs" t="Include" />
           </e>
