@@ -4,32 +4,26 @@ using UnityEngine;
 
 public class SimplePlayerMovementBehaviour : MonoBehaviour
 {
-
-    public float speed;
-
     public void Update()
     {
-        Input.GetKey(KeyCode.W);
-        Input.GetKey(KeyCode.A);
-        Input.GetKey(KeyCode.S);
-        Input.GetKey(KeyCode.D);
-
-
-        float hor = Input.GetAxis("Horizontal");
-        float ver = Input.GetAxis("Vertical");
-
-        Vector3 playerMovement = new Vector3(hor, 0, ver) * speed * Time.deltaTime;
-        transform.Translate(playerMovement, Space.Self);
-
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.W))
         {
-            
-            transform.Rotate(new Vector3(0, 1, 0), Time.deltaTime * speed);
+            transform.Translate(new Vector3(0, 0, 1), Space.Self);
         }
 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetKey(KeyCode.S))
         {
-            transform.Rotate(new Vector3(0, 1, 0), Time.deltaTime * -speed);
+            transform.Translate(new Vector3(0, 0, -1), Space.Self);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(new Vector3(-1, 0, 0), Space.Self);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(new Vector3(1, 0, 0), Space.Self);
         }
     }
 
