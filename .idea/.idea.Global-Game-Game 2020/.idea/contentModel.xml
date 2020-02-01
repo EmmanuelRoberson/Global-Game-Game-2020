@@ -12,6 +12,9 @@
           <e p="GameEvent.cs" t="Include" />
           <e p="GameEventListener.cs" t="Include" />
           <e p="GameEventResponse.cs" t="Include" />
+          <e p="GridCreateBehaviour.cs" t="Include" />
+          <e p="GridNode.cs" t="Include" />
+          <e p="GridTraversalBehaviour.cs" t="Include" />
           <e p="INterfaces" t="Include">
             <e p="IListener.cs" t="Include" />
             <e p="IReactable.cs" t="Include" />
