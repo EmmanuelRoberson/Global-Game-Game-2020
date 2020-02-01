@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class SimplePlayerMovementBehaviour : MonoBehaviour
 {
-
-    public float speed;
-
     public void Update()
     {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(new Vector3(0, 0, 1), Space.Self);
+        }
 
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(new Vector3(0, 0, -1), Space.Self);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(new Vector3(-1, 0, 0), Space.Self);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(new Vector3(1, 0, 0), Space.Self);
+        }
     }
 
-    public void PlayerMovement()
-    {
-        float hor = Input.GetAxis("Horizontal");
-        float ver = Input.GetAxis("Vertical");
-        Vector3 playerMovement = new Vector3(hor, 0, ver);
-        transform.Translate(playerMovement, Space.Self);
-    }
 }
