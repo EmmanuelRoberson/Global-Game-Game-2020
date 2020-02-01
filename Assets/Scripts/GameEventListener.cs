@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class GameEventListener : MonoBehaviour, IListener
 {
@@ -10,24 +12,44 @@ public class GameEventListener : MonoBehaviour, IListener
     public GameEventResponse Response;
 
     public GameObject SenderObject;
+
+    public void OnEnable()
+    {
+        Subscribe();
+    }
     
-    public void Suscribe()
+    public void Subscribe()
     {
-        throw new System.NotImplementedException();
+        GameEvent.AddListener(this);
     }
 
-    public void Unsibscribe()
+    public void Unsubscribe()
     {
-        throw new System.NotImplementedException();
+        GameEvent.RemoveListener(this);
     }
 
-    public void OnEventRaised(params Object[] obj)
+    public void OnEventRaised(params Object[] args)
     {
-        throw new System.NotImplementedException();
+        //var sender = args[0];
+        //var other = args[1];
+        
+        //if its null we will call it
+        if (SenderObject == null)
+        {
+            Response.Invoke(args);
+        }
+        else
+        {
+        }
+    }
+
+    public void OnDisable()
+    {
+        Unsubscribe();
     }
 
     public void OnEventRaised()
     {
-        throw new System.NotImplementedException();
+        OnEventRaised(null);
     }
 }

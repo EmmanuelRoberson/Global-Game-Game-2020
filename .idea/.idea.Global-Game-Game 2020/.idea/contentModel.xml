@@ -8,7 +8,6 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BeatTimerBehaviour.cs" t="Include" />
-          <e p="ButtonColorChangerReactionBehaviour.cs" t="Include" />
           <e p="ChaseBehaviour.cs" t="Include" />
           <e p="GameEvent.cs" t="Include" />
           <e p="GameEventListener.cs" t="Include" />
@@ -18,6 +17,11 @@
             <e p="IReactable.cs" t="Include" />
             <e p="ISubscribeable.cs" t="Include" />
           </e>
+          <e p="Kyra" t="Include">
+            <e p="SimplePlayerMovementBehaviour.cs" t="Include" />
+            <e p="ThirdPersonBehaviour.cs" t="Include" />
+          </e>
+          <e p="MaterialColorChangerBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Global-Game-Game 2020.sln" t="IncludeFlat" />

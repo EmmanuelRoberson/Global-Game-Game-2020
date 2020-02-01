@@ -4,8 +4,8 @@ using UnityEngine;
 
 public interface IListener
 {
-    void Suscribe();
-    void Unsibscribe();
+    void Subscribe();
+    void Unsubscribe();
     void OnEventRaised(params Object[] obj);
     void OnEventRaised();
 }

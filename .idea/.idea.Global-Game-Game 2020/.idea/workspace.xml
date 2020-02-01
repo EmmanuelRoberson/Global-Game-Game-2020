@@ -16,8 +16,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/IReactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/ISubscribeable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEventResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/IListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonColorChangerReactionBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialColorChangerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,14 +26,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Event.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/ISubscribable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/IListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/GameEventResponse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/ISubscribeable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameEventListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BeatTimerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/IReactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonColorChangerReactionBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BeatTimerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/INterfaces/IListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialColorChangerBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -70,10 +72,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3904">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="3904" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -89,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580523030432</updated>
       <workItem from="1580523044803" duration="587000" />
-      <workItem from="1580523682581" duration="2573000" />
+      <workItem from="1580523682581" duration="4480000" />
+      <workItem from="1580528466578" duration="6075000" />
     </task>
     <servers />
   </component>

@@ -32,6 +32,8 @@ public class BeatTimerBehaviour : MonoBehaviour
         if (timeBetweenBeats >= (1 / beatsPerSecond))
         {
             onBeatEvent.Raise();
+            Debug.Log("Beat Raised Called");
+            timeBetweenBeats = 0;
         }
     }
 }
