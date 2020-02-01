@@ -9,14 +9,28 @@ public class SimplePlayerMovementBehaviour : MonoBehaviour
 
     public void Update()
     {
+        Input.GetKey(KeyCode.W);
+        Input.GetKey(KeyCode.A);
+        Input.GetKey(KeyCode.S);
+        Input.GetKey(KeyCode.D);
 
-    }
 
-    public void PlayerMovement()
-    {
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
-        Vector3 playerMovement = new Vector3(hor, 0, ver);
+
+        Vector3 playerMovement = new Vector3(hor, 0, ver) * speed * Time.deltaTime;
         transform.Translate(playerMovement, Space.Self);
+
+        if (Input.GetKey(KeyCode.R))
+        {
+            
+            transform.Rotate(new Vector3(0, 1, 0), Time.deltaTime * speed);
+        }
+
+        if (Input.GetKey(KeyCode.T))
+        {
+            transform.Rotate(new Vector3(0, 1, 0), Time.deltaTime * -speed);
+        }
     }
+
 }
