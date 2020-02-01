@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
 public class BeatTimerBehaviour : MonoBehaviour
@@ -9,6 +10,11 @@ public class BeatTimerBehaviour : MonoBehaviour
     private float beatsPerSecond;
 
     [SerializeField] private GameEvent onBeatEvent;
+    [SerializeField] private GameEvent beginToleranceEvent;
+    [SerializeField] private GameEvent endToleranceEvent;
+        
+    private bool beganToleranceEvent;
+    private bool endedToleranceEvent;
 
     private float timeBetweenBeats;
 
@@ -29,9 +35,8 @@ public class BeatTimerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         OnBeatChecker();
-        timeBetweenBeats += Time.deltaTime;
+        timeBetweenBeats += Time.smoothDeltaTime;
     }
 
     void OnBeatChecker()
@@ -45,5 +50,28 @@ public class BeatTimerBehaviour : MonoBehaviour
         
         //audio.timeSamples/audio.clip.frequency
         //beats per second - 0 +  the input tolerance, which should be set in the inspector
+    }
+
+    void ToleranceBeatChecker()
+    {
+        if (endedToleranceEvent)
+        {
+            if (timeBetweenBeats >= ((1 / beatsPerSecond) - beatOffset) - inputTolerance)
+            {
+                beginToleranceEvent.Raise();
+                beganToleranceEvent = true;
+                endedToleranceEvent = false;
+            }
+        }
+
+        if (beganToleranceEvent)
+        {
+            if (timeBetweenBeats >= ((1 / beatsPerSecond) - beatOffset) + inputTolerance)
+            {
+                endToleranceEvent.Raise();
+                beganToleranceEvent = false;
+                endedToleranceEvent = true;
+            }
+        }
     }
 }
