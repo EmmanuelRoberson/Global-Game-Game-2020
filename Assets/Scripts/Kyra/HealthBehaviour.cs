@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class HealthBehaviour : MonoBehaviour
 {
-    public HealthBehaviour target;
-
     public float _health = 100f;
     public float _maxHealth = 100f;
-    
-    public float damage = 20f;
 
-    public void Update()
-    {
-        if (Input.GetKey(KeyCode.X))
-        {
-            Fight();
-        }
-    }
+    private bool isAlive = true;
 
     public float Health
     {
@@ -35,20 +25,27 @@ public class HealthBehaviour : MonoBehaviour
             else if (_health < 0)
             {
                 _health = 0;
+             
+
             }
         }
 
     }
 
-    public void Fight()
+    private void OnCollisionEnter(Collision other)
     {
-        if (Health <= 0)
+        if(other.gameObject.CompareTag("ground"))
         {
-            return;
+            Debug.Log("Scollision have been made");
         }
-
-        target.Health -= damage;        
+        
     }
 
-    
+
+    public void Update()
+    {
+       
+       
+    }
+
 }

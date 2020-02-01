@@ -194,9 +194,11 @@ GameObject:
   - component: {fileID: 346221456}
   - component: {fileID: 346221455}
   - component: {fileID: 346221454}
-  m_Layer: 0
+  - component: {fileID: 346221459}
+  - component: {fileID: 346221460}
+  m_Layer: 9
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,10 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff684bb4ec57b924ea9d3c06282d62df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1962857348}
-  _health: 100
+  _health: 20
   _maxHealth: 100
-  damage: 20
 --- !u!135 &346221455
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -283,12 +283,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346221453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2329965, y: 21.668068, z: -23.936771}
+  m_LocalPosition: {x: -7.2329965, y: 19.38, z: -19.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346221459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346221453}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431b05f6db685184d810e8ce59714a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1962857347}
+--- !u!54 &346221460
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346221453}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1062071052
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +332,7 @@ GameObject:
   - component: {fileID: 1062071054}
   - component: {fileID: 1062071057}
   m_Layer: 0
-  m_Name: turningCam
+  m_Name: hitboxdetecer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,7 +361,7 @@ BoxCollider:
   m_GameObject: {fileID: 1062071052}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -470,13 +499,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280857257}
-  m_LocalRotation: {x: 0.40826666, y: -0, z: -0, w: 0.9128627}
-  m_LocalPosition: {x: -0.15, y: 5.5699997, z: -6.8900003}
+  m_LocalRotation: {x: 0.21087588, y: 0.025789676, z: 0.029584264, w: 0.9767247}
+  m_LocalPosition: {x: -0.15, y: 3.8, z: -8.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1962857345}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 48.192, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.231, y: 3.9520001, z: 4.3190002}
 --- !u!114 &1280857261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,7 +548,7 @@ GameObject:
   - component: {fileID: 1459641666}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -611,9 +640,10 @@ GameObject:
   - component: {fileID: 1962857346}
   - component: {fileID: 1962857347}
   - component: {fileID: 1962857348}
+  - component: {fileID: 1962857349}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +732,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1.99
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -720,6 +750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5271e3658a71914cb1cefd1e39b2eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
 --- !u!114 &1962857348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,7 +763,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff684bb4ec57b924ea9d3c06282d62df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 346221454}
   _health: 100
   _maxHealth: 100
-  damage: 20
+--- !u!114 &1962857349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962857341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98503d60c85ddb3418fa9bf42c478f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 346221454}
+  damage: 1000

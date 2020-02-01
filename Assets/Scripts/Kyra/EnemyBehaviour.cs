@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
+    public SimplePlayerMovementBehaviour player;
+
   //begin emmanuel code
   private bool canMove;
 
@@ -29,10 +31,10 @@ public class EnemyBehaviour : MonoBehaviour
 
   private void Update()
   {
-    if (timeUntilMoveIsAllowed > 1)
+    if (timeUntilMoveIsAllowed > 2)
     {
       //move logic goes here, refer to my grid traversal behaviour for reference
-      
+      transform.position = player.transform.position + new Vector3(0,8,0);
       
     }
 
