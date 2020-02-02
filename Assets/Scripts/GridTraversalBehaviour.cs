@@ -9,10 +9,10 @@ using UnityEngineInternal;
 public class GridTraversalBehaviour : MonoBehaviour
 {
     private bool Count3;
-    private bool count2;
-    private bool count1;
-
-    private bool go;
+                        private bool count2;
+                        private bool count1;
+                    
+                        private bool go;
         
     public GameObject currentGridSpace;
     private GridNode gridNode;

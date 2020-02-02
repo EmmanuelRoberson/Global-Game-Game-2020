@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 05f7a84c990e20e4581b6031e3e84105
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmL_group4
+    100002: group4_Antenna
+    100004: group4_ArmL1
+    100006: group4_ClavL
+    100008: group4_ClavL1
+    100010: group4_group5_HandL8
+    100012: group4_group5_Index1L8
+    100014: group4_group5_Index2L8
+    100016: group4_group5_Mid1L8
+    100018: group4_group5_Mid2L8
+    100020: group4_group5_Thumb1L8
+    100022: group4_group5_Thumb2L8
+    100024: group4_HandL
+    100026: group4_HandL1
+    100028: group4_HeadBack
+    100030: group4_HeadL
+    100032: group4_HeadL1
+    100034: group4_HeadMain
+    100036: group4_HeadTop
+    100038: group4_Index1L
+    100040: group4_Index1L1
+    100042: group4_Index2L
+    100044: group4_Index2L1
+    100046: group4_LegLowerL
+    100048: group4_LegLowerL1
+    100050: group4_Mid1L
+    100052: group4_Mid1L1
+    100054: group4_Mid2L
+    100056: group4_Mid2L1
+    100058: group4_NeckBase
+    100060: group4_NeckRod
+    100062: group4_NeckTop
+    100064: group4_PauldronL
+    100066: group4_PauldronL1
+    100068: group4_Pelvis
+    100070: group4_PlateBack
+    100072: group4_Radio
+    100074: group4_ShoulderL
+    100076: group4_ShoulderL1
+    100078: group4_SpikeL
+    100080: group4_SpikeL1
+    100082: group4_ThighGuardL
+    100084: group4_ThighGuardL1
+    100086: group4_ThighL
+    100088: group4_ThighL1
+    100090: group4_Thumb1L
+    100092: group4_Thumb1L1
+    100094: group4_Thumb2L
+    100096: group4_Thumb2L1
+    100098: group4_TorsoMain
+    100100: group4_TorsoTop
+    100102: group4_TorsoTopL
+    100104: group4_TorsoTopL1
+    100106: group4_WristL
+    100108: group4_WristL1
+    100110: group4_WristL8_group5
+    100112: //RootNode
+    400000: ArmL_group4
+    400002: group4_Antenna
+    400004: group4_ArmL1
+    400006: group4_ClavL
+    400008: group4_ClavL1
+    400010: group4_group5_HandL8
+    400012: group4_group5_Index1L8
+    400014: group4_group5_Index2L8
+    400016: group4_group5_Mid1L8
+    400018: group4_group5_Mid2L8
+    400020: group4_group5_Thumb1L8
+    400022: group4_group5_Thumb2L8
+    400024: group4_HandL
+    400026: group4_HandL1
+    400028: group4_HeadBack
+    400030: group4_HeadL
+    400032: group4_HeadL1
+    400034: group4_HeadMain
+    400036: group4_HeadTop
+    400038: group4_Index1L
+    400040: group4_Index1L1
+    400042: group4_Index2L
+    400044: group4_Index2L1
+    400046: group4_LegLowerL
+    400048: group4_LegLowerL1
+    400050: group4_Mid1L
+    400052: group4_Mid1L1
+    400054: group4_Mid2L
+    400056: group4_Mid2L1
+    400058: group4_NeckBase
+    400060: group4_NeckRod
+    400062: group4_NeckTop
+    400064: group4_PauldronL
+    400066: group4_PauldronL1
+    400068: group4_Pelvis
+    400070: group4_PlateBack
+    400072: group4_Radio
+    400074: group4_ShoulderL
+    400076: group4_ShoulderL1
+    400078: group4_SpikeL
+    400080: group4_SpikeL1
+    400082: group4_ThighGuardL
+    400084: group4_ThighGuardL1
+    400086: group4_ThighL
+    400088: group4_ThighL1
+    400090: group4_Thumb1L
+    400092: group4_Thumb1L1
+    400094: group4_Thumb2L
+    400096: group4_Thumb2L1
+    400098: group4_TorsoMain
+    400100: group4_TorsoTop
+    400102: group4_TorsoTopL
+    400104: group4_TorsoTopL1
+    400106: group4_WristL
+    400108: group4_WristL1
+    400110: group4_WristL8_group5
+    400112: //RootNode
+    2100000: lambert3SG
+    2100002: lambert2SG
+    2100004: lambert4SG
+    2100006: lambert5SG
+    2300000: ArmL_group4
+    2300002: group4_Antenna
+    2300004: group4_ArmL1
+    2300006: group4_ClavL
+    2300008: group4_ClavL1
+    2300010: group4_group5_HandL8
+    2300012: group4_group5_Index1L8
+    2300014: group4_group5_Index2L8
+    2300016: group4_group5_Mid1L8
+    2300018: group4_group5_Mid2L8
+    2300020: group4_group5_Thumb1L8
+    2300022: group4_group5_Thumb2L8
+    2300024: group4_HandL
+    2300026: group4_HandL1
+    2300028: group4_HeadBack
+    2300030: group4_HeadL
+    2300032: group4_HeadL1
+    2300034: group4_HeadMain
+    2300036: group4_HeadTop
+    2300038: group4_Index1L
+    2300040: group4_Index1L1
+    2300042: group4_Index2L
+    2300044: group4_Index2L1
+    2300046: group4_LegLowerL
+    2300048: group4_LegLowerL1
+    2300050: group4_Mid1L
+    2300052: group4_Mid1L1
+    2300054: group4_Mid2L
+    2300056: group4_Mid2L1
+    2300058: group4_NeckBase
+    2300060: group4_NeckRod
+    2300062: group4_NeckTop
+    2300064: group4_PauldronL
+    2300066: group4_PauldronL1
+    2300068: group4_Pelvis
+    2300070: group4_PlateBack
+    2300072: group4_Radio
+    2300074: group4_ShoulderL
+    2300076: group4_ShoulderL1
+    2300078: group4_SpikeL
+    2300080: group4_SpikeL1
+    2300082: group4_ThighGuardL
+    2300084: group4_ThighGuardL1
+    2300086: group4_ThighL
+    2300088: group4_ThighL1
+    2300090: group4_Thumb1L
+    2300092: group4_Thumb1L1
+    2300094: group4_Thumb2L
+    2300096: group4_Thumb2L1
+    2300098: group4_TorsoMain
+    2300100: group4_TorsoTop
+    2300102: group4_TorsoTopL
+    2300104: group4_TorsoTopL1
+    2300106: group4_WristL
+    2300108: group4_WristL1
+    2300110: group4_WristL8_group5
+    3300000: ArmL_group4
+    3300002: group4_Antenna
+    3300004: group4_ArmL1
+    3300006: group4_ClavL
+    3300008: group4_ClavL1
+    3300010: group4_group5_HandL8
+    3300012: group4_group5_Index1L8
+    3300014: group4_group5_Index2L8
+    3300016: group4_group5_Mid1L8
+    3300018: group4_group5_Mid2L8
+    3300020: group4_group5_Thumb1L8
+    3300022: group4_group5_Thumb2L8
+    3300024: group4_HandL
+    3300026: group4_HandL1
+    3300028: group4_HeadBack
+    3300030: group4_HeadL
+    3300032: group4_HeadL1
+    3300034: group4_HeadMain
+    3300036: group4_HeadTop
+    3300038: group4_Index1L
+    3300040: group4_Index1L1
+    3300042: group4_Index2L
+    3300044: group4_Index2L1
+    3300046: group4_LegLowerL
+    3300048: group4_LegLowerL1
+    3300050: group4_Mid1L
+    3300052: group4_Mid1L1
+    3300054: group4_Mid2L
+    3300056: group4_Mid2L1
+    3300058: group4_NeckBase
+    3300060: group4_NeckRod
+    3300062: group4_NeckTop
+    3300064: group4_PauldronL
+    3300066: group4_PauldronL1
+    3300068: group4_Pelvis
+    3300070: group4_PlateBack
+    3300072: group4_Radio
+    3300074: group4_ShoulderL
+    3300076: group4_ShoulderL1
+    3300078: group4_SpikeL
+    3300080: group4_SpikeL1
+    3300082: group4_ThighGuardL
+    3300084: group4_ThighGuardL1
+    3300086: group4_ThighL
+    3300088: group4_ThighL1
+    3300090: group4_Thumb1L
+    3300092: group4_Thumb1L1
+    3300094: group4_Thumb2L
+    3300096: group4_Thumb2L1
+    3300098: group4_TorsoMain
+    3300100: group4_TorsoTop
+    3300102: group4_TorsoTopL
+    3300104: group4_TorsoTopL1
+    3300106: group4_WristL
+    3300108: group4_WristL1
+    3300110: group4_WristL8_group5
+    4300000: ArmL_group4
+    4300002: group4_Antenna
+    4300004: group4_ArmL1
+    4300006: group4_ClavL
+    4300008: group4_ClavL1
+    4300010: group4_group5_HandL8
+    4300012: group4_group5_Index1L8
+    4300014: group4_group5_Index2L8
+    4300016: group4_group5_Mid1L8
+    4300018: group4_group5_Mid2L8
+    4300020: group4_group5_Thumb1L8
+    4300022: group4_group5_Thumb2L8
+    4300024: group4_HandL
+    4300026: group4_HandL1
+    4300028: group4_HeadBack
+    4300030: group4_HeadL
+    4300032: group4_HeadL1
+    4300034: group4_HeadMain
+    4300036: group4_HeadTop
+    4300038: group4_Index1L
+    4300040: group4_Index1L1
+    4300042: group4_Index2L
+    4300044: group4_Index2L1
+    4300046: group4_LegLowerL
+    4300048: group4_LegLowerL1
+    4300050: group4_Mid1L
+    4300052: group4_Mid1L1
+    4300054: group4_Mid2L
+    4300056: group4_Mid2L1
+    4300058: group4_NeckBase
+    4300060: group4_NeckRod
+    4300062: group4_NeckTop
+    4300064: group4_PauldronL
+    4300066: group4_PauldronL1
+    4300068: group4_Pelvis
+    4300070: group4_PlateBack
+    4300072: group4_Radio
+    4300074: group4_ShoulderL
+    4300076: group4_ShoulderL1
+    4300078: group4_SpikeL
+    4300080: group4_SpikeL1
+    4300082: group4_ThighGuardL
+    4300084: group4_ThighGuardL1
+    4300086: group4_ThighL
+    4300088: group4_ThighL1
+    4300090: group4_Thumb1L
+    4300092: group4_Thumb1L1
+    4300094: group4_Thumb2L
+    4300096: group4_Thumb2L1
+    4300098: group4_TorsoMain
+    4300100: group4_TorsoTop
+    4300102: group4_TorsoTopL
+    4300104: group4_TorsoTopL1
+    4300106: group4_WristL
+    4300108: group4_WristL1
+    4300110: group4_WristL8_group5
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: RobotObject(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmL_group4
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Antenna
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ArmL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ClavL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ClavL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_HandL8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Index1L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Index2L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Mid1L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Mid2L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Thumb1L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_group5_Thumb2L8
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HandL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HandL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HeadBack
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HeadL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HeadL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HeadMain
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_HeadTop
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Index1L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Index1L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Index2L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Index2L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_LegLowerL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_LegLowerL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Mid1L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Mid1L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Mid2L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Mid2L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_NeckBase
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_NeckRod
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_NeckTop
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_PauldronL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_PauldronL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Pelvis
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_PlateBack
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Radio
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ShoulderL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ShoulderL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_SpikeL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_SpikeL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ThighGuardL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ThighGuardL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ThighL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_ThighL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Thumb1L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Thumb1L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Thumb2L
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_Thumb2L1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_TorsoMain
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_TorsoTop
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_TorsoTopL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_TorsoTopL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_WristL
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_WristL1
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4_WristL8_group5
+      parentName: RobotObject(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using Quaternion = System.Numerics.Quaternion;
 using Vector3 = UnityEngine.Vector3;
 
 public class UICountDownBehaviour : MonoBehaviour

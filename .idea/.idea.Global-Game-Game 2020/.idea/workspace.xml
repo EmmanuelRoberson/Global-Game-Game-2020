@@ -52,8 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SubscribeToBeatBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GridNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Kyra/ThirdPersonBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGridTraversalBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UICountDownBehaviour.cs" />
       </list>
     </option>
@@ -114,7 +114,7 @@
       <workItem from="1580523682581" duration="4480000" />
       <workItem from="1580528466578" duration="15821000" />
       <workItem from="1580578102369" duration="68000" />
-      <workItem from="1580578710319" duration="23769000" />
+      <workItem from="1580578710319" duration="25967000" />
     </task>
     <servers />
   </component>
