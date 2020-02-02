@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Emmanuel.unity
     guid: 30f95a8ce6c629a48bf5d36589e4df34
+  - enabled: 1
+    path: Assets/SceneB.unity
+    guid: 9ff44acb0dea63248a739c22ef1bdb8f
   m_configObjects: {}
