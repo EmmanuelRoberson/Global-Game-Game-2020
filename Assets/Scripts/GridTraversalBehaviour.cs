@@ -22,6 +22,7 @@ public class GridTraversalBehaviour : MonoBehaviour
     {
         eventProvider.Register<Beat>(MoveFunction);
         
+        
         inputBuffer = 0.2f;
         inputBufferTimer = 0;
         gridNode = currentGridSpace.GetComponent<GridNode>();
@@ -38,25 +39,37 @@ public class GridTraversalBehaviour : MonoBehaviour
     public void GetTopNeighbor()
     {
         transform.position = gridNode.TopNeighbor.sitPosition;
+        gridNode.isOccupied = false;
+
         gridNode = gridNode.TopNeighbor;
+        gridNode.isOccupied = true;
     }
     
     public void GetBottomNeighbor()
     {
         transform.position = gridNode.BottomNeighbor.sitPosition;
+        gridNode.isOccupied = false;
+        
         gridNode = gridNode.BottomNeighbor;
+        gridNode.isOccupied = true;
     }
     
     public void GetLeftNeighbor()
     {
         transform.position = gridNode.LeftNeighbor.sitPosition;
+        gridNode.isOccupied = false;
+        
         gridNode = gridNode.LeftNeighbor;
+        gridNode.isOccupied = true;
     }
     
     public void GetRightNeighbor()
     {
         transform.position = gridNode.RightNeighbor.sitPosition;
+        gridNode.isOccupied = false;
+        
         gridNode = gridNode.RightNeighbor;
+        gridNode.isOccupied = true;
     }
 
     public void MoveFunction(Beat beat)

@@ -45,10 +45,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaterialColorChangerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GridCreateBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GridNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Kyra/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BeatTimerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SubscribeToBeatBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGridTraversalBehaviour.cs" />
       </list>
@@ -110,7 +110,7 @@
       <workItem from="1580523682581" duration="4480000" />
       <workItem from="1580528466578" duration="15821000" />
       <workItem from="1580578102369" duration="68000" />
-      <workItem from="1580578710319" duration="14445000" />
+      <workItem from="1580578710319" duration="19967000" />
     </task>
     <servers />
   </component>

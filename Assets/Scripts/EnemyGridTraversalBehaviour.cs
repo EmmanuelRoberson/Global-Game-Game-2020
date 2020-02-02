@@ -9,11 +9,12 @@ public class EnemyGridTraversalBehaviour : MonoBehaviour
     public GameObject currentGridSpace;
     private GridNode gridNode;
     
-    public RhythmEventProvider EventProvider;
+    public RhythmEventProvider eventProvider;
     
     void Start()
     {
-        EventProvider.Register<Beat>(TraverseLogic);
+        eventProvider.Register<Beat>(TraverseLogic);
+        gridNode = currentGridSpace.GetComponent<GridNode>();
     }
 
 
@@ -21,33 +22,30 @@ public class EnemyGridTraversalBehaviour : MonoBehaviour
     {
         
     }
-    
-    public void GetTopNeighbor()
-    {
-        transform.position = gridNode.TopNeighbor.sitPosition;
-        gridNode = gridNode.TopNeighbor;
-    }
-    
-    public void GetBottomNeighbor()
-    {
-        transform.position = gridNode.BottomNeighbor.sitPosition;
-        gridNode = gridNode.BottomNeighbor;
-    }
-    
-    public void GetLeftNeighbor()
-    {
-        transform.position = gridNode.LeftNeighbor.sitPosition;
-        gridNode = gridNode.LeftNeighbor;
-    }
-    
-    public void GetRightNeighbor()
-    {
-        transform.position = gridNode.RightNeighbor.sitPosition;
-        gridNode = gridNode.RightNeighbor;
-    }
 
     public void TraverseLogic(Beat beat)
     {
+        List<GridNode> neighbors = new List<GridNode>();
+        if (gridNode.BottomNeighbor != null && (gridNode.BottomNeighbor.isOccupied == false))
+            neighbors.Add(gridNode.BottomNeighbor);
         
+        if (gridNode.TopNeighbor != null && (gridNode.TopNeighbor.isOccupied == false))
+            neighbors.Add(gridNode.TopNeighbor);
+        
+        if (gridNode.RightNeighbor != null && (gridNode.RightNeighbor.isOccupied == false))
+            neighbors.Add(gridNode.RightNeighbor);
+        
+        if (gridNode.LeftNeighbor != null && (gridNode.LeftNeighbor.isOccupied == false))
+            neighbors.Add(gridNode.LeftNeighbor);
+
+        var rand = new System.Random();
+        var index = rand.Next(neighbors.Capacity);
+        
+        gridNode.isOccupied = false;
+        gridNode = neighbors[index];
+        gridNode.isOccupied = true;
+        
+        transform.position = gridNode.sitPosition;
     }
 }
+ 

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class GridNode : MonoBehaviour
 {
+    public bool isOccupied;
     public GameObject nodeObject;
 
     public Vector3 sitPosition;

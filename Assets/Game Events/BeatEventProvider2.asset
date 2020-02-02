@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d13c5d12a976fa429a55e892e5988a0, type: 3}
-  m_Name: BeatEventProvider
+  m_Name: BeatEventProvider2
   m_EditorClassIdentifier: 
   offset: -0.33
