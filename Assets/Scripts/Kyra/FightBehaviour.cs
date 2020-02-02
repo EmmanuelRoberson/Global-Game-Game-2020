@@ -22,7 +22,7 @@ public class FightBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("collision have been made");
+       // Debug.Log("collision have been made");
         
         if (player.Health >= 0)
         {

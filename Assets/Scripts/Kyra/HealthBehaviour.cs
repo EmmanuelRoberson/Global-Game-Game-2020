@@ -34,10 +34,10 @@ public class HealthBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.CompareTag("ground"))
-        {
-            Debug.Log("Scollision have been made");
-        }
+        //if(other.gameObject.CompareTag("ground"))
+        //{
+        //    Debug.Log("Scollision have been made");
+        //}
         
     }
 
