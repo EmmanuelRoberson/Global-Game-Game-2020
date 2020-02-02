@@ -1,29 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ThirdPersonBehaviour : MonoBehaviour
 {
-    public void Update()
+    public GameObject target;
+    public Vector3 offset;
+    void Start()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Rotate(new Vector3(0, 0, 1), Space.Self);
-        }
+        //offset = transform.position - target.transform.position;
+        transform.position = target.transform.position + offset;
+    }
 
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Rotate(new Vector3(0, 0, -1), Space.Self);
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.Rotate(new Vector3(-1, 0, 0), Space.Self);
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.Rotate(new Vector3(1, 0, 0), Space.Self);
-        }
+    void Update()
+    {
+        transform.position = target.transform.position + offset;
     }
 }

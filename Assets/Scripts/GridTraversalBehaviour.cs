@@ -8,6 +8,12 @@ using UnityEngineInternal;
 
 public class GridTraversalBehaviour : MonoBehaviour
 {
+    private bool Count3;
+    private bool count2;
+    private bool count1;
+
+    private bool go;
+        
     public GameObject currentGridSpace;
     private GridNode gridNode;
     private float inputBuffer;
@@ -18,14 +24,14 @@ public class GridTraversalBehaviour : MonoBehaviour
     public RhythmEventProvider eventProvider;
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         eventProvider.Register<Beat>(MoveFunction);
-        
-        
+
         inputBuffer = 0.2f;
         inputBufferTimer = 0;
         gridNode = currentGridSpace.GetComponent<GridNode>();
+        transform.position = gridNode.sitPosition;
     }
 
     // Update is called once per frame
