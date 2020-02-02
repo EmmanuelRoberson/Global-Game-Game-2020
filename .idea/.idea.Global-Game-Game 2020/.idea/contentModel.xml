@@ -85,6 +85,7 @@
             <e p="EnemyBehaviour.cs" t="Include" />
             <e p="FightBehaviour.cs" t="Include" />
             <e p="HealthBehaviour.cs" t="Include" />
+            <e p="MalletBehaviour.cs" t="Include" />
             <e p="ScoreBehaviour.cs" t="Include" />
             <e p="SimplePlayerMovementBehaviour.cs" t="Include" />
             <e p="ThirdPersonBehaviour.cs" t="Include" />
