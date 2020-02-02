@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework.Constraints;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BeatTimerBehaviour : MonoBehaviour
 {
@@ -27,23 +24,27 @@ public class BeatTimerBehaviour : MonoBehaviour
     void Start()
     {
         beatsPerSecond = beatsPerMinute / 60;
-        timeBetweenBeats = 0;
+        timeBetweenBeats = (1 /beatsPerSecond) - beatOffset;
         audio.loop = true;
         audio.Play();
+        endedToleranceEvent = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        ToleranceBeatChecker();
         OnBeatChecker();
-        timeBetweenBeats += Time.smoothDeltaTime;
+        timeBetweenBeats += Time.fixedDeltaTime;
+
+        //timeBetweenBeats comes out at around when logged 0.4472928f;
     }
 
     void OnBeatChecker()
     {
         if (timeBetweenBeats >=  (1 /beatsPerSecond) - beatOffset)
         {
-            Debug.Log(timeBetweenBeats);
+            //Debug.Log(timeBetweenBeats);
             onBeatEvent.Raise();
             timeBetweenBeats = 0;
         }
@@ -59,6 +60,7 @@ public class BeatTimerBehaviour : MonoBehaviour
             if (timeBetweenBeats >= ((1 / beatsPerSecond) - beatOffset) - inputTolerance)
             {
                 beginToleranceEvent.Raise();
+                Debug.Log("began tolerance");
                 beganToleranceEvent = true;
                 endedToleranceEvent = false;
             }
@@ -69,6 +71,7 @@ public class BeatTimerBehaviour : MonoBehaviour
             if (timeBetweenBeats >= ((1 / beatsPerSecond) - beatOffset) + inputTolerance)
             {
                 endToleranceEvent.Raise();
+                Debug.Log("ended tolerance");
                 beganToleranceEvent = false;
                 endedToleranceEvent = true;
             }

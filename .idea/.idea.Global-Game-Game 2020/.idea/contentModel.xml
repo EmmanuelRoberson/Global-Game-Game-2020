@@ -4,11 +4,71 @@
     <e p="C:\Users\Admin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Admin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Global-Game-Game 2020.-1818419012.00" t="ExcludeRecursive" />
     <e p="D:\Unity\GitUnity\Unity Global Game Jam\Global-Game-Game 2020" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioImporter" t="Include">
+          <e p="Examples" t="Include">
+            <e p="ImporterExample.cs" t="Include" />
+          </e>
+          <e p="NAudio" t="Include">
+            <e p="license.txt" t="Include" />
+            <e p="NAudio.xml" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AudioImporter.cs" t="Include" />
+            <e p="Browser.cs" t="Include" />
+            <e p="DecoderImporter.cs" t="Include" />
+            <e p="MobileImporter.cs" t="Include" />
+            <e p="NAudioImporter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="RhythmTool" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorAnalyzer.cs" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Misc" t="Include">
+              <e p="UnlitColorTransparent.shader" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AudioClipSelector.cs" t="Include" />
+              <e p="Line.cs" t="Include" />
+              <e p="Visualizer.cs" t="Include" />
+            </e>
+            <e p="Songs" t="Include">
+              <e p="Example songs.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Analysis.cs" t="Include" />
+            <e p="BeatTrack.cs" t="Include" />
+            <e p="BeatTracker.cs" t="Include" />
+            <e p="Chromagram.cs" t="Include" />
+            <e p="ChromaTrack.cs" t="Include" />
+            <e p="DebugDrawer.cs" t="Include" />
+            <e p="IFeature.cs" t="Include" />
+            <e p="LomontFFT.cs" t="Include" />
+            <e p="OnsetDetector.cs" t="Include" />
+            <e p="OnsetTrack.cs" t="Include" />
+            <e p="RhythmAnalyzer.cs" t="Include" />
+            <e p="RhythmData.cs" t="Include" />
+            <e p="RhythmEventProvider.cs" t="Include" />
+            <e p="RhythmPlayer.cs" t="Include" />
+            <e p="RhythmTarget.cs" t="Include" />
+            <e p="Segmenter.cs" t="Include" />
+            <e p="Track.cs" t="Include" />
+            <e p="Util.cs" t="Include" />
+            <e p="ValueTrack.cs" t="Include" />
+            <e p="VolumeSampler.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="BeatTimerBehaviour.cs" t="Include" />
           <e p="ChaseBehaviour.cs" t="Include" />
+          <e p="EnemyGridTraversalBehaviour.cs" t="Include" />
           <e p="GameEvent.cs" t="Include" />
           <e p="GameEventListener.cs" t="Include" />
           <e p="GameEventResponse.cs" t="Include" />
@@ -27,6 +87,7 @@
             <e p="ThirdPersonBehaviour.cs" t="Include" />
           </e>
           <e p="MaterialColorChangerBehaviour.cs" t="Include" />
+          <e p="SubscribeToBeatBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Global-Game-Game 2020.sln" t="IncludeFlat" />

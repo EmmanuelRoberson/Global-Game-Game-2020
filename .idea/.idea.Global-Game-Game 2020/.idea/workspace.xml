@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BeatTimerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/IReactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyGridTraversalBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D7AC571C-A2D0-4B2F-981D-0D886FA067CF/02/91a99a84/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEventResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78121F72-672F-4A9B-8378-F38120B3DE75/c1/50f68f11/StackTraceUtility.cs" root0="SKIP_HIGHLIGHTING" />
@@ -23,9 +24,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78121F72-672F-4A9B-8378-F38120B3DE75/f9/ba08a998/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/ISubscribeable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RhythmTool/Scripts/RhythmAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INterfaces/IListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialColorChangerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubscribeToBeatBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Kyra/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -44,8 +47,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GridCreateBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GridNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Kyra/EnemyBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BeatTimerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SubscribeToBeatBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridTraversalBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGridTraversalBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +110,7 @@
       <workItem from="1580523682581" duration="4480000" />
       <workItem from="1580528466578" duration="15821000" />
       <workItem from="1580578102369" duration="68000" />
-      <workItem from="1580578710319" duration="7080000" />
+      <workItem from="1580578710319" duration="14445000" />
     </task>
     <servers />
   </component>
